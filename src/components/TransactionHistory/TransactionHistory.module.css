@@ -1,0 +1,32 @@
+.tableContainer {
+    border: 2px solid #000;
+    border-collapse: collapse;
+    text-align: center;
+    width: 800px;
+    height: 350px;
+    margin: 0 auto;
+    font-size: 20px;
+  }
+  
+  .theadContainer {
+    background-color: #000;
+    color: white;
+  }
+  
+  .title {
+    border: 2px solid #000;
+    font-weight: 700;
+  }
+  
+  .tbodyContainer {
+    border: 2px solid #000;
+  }
+  
+  .tbodyContainer tr:nth-child(even) {
+    background-color: #d1d1d1;
+  }
+  
+  .text {
+    border: 2px solid #000;
+    font-weight: 400;
+  }
